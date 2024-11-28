@@ -9,7 +9,7 @@ proxy-providers-dingyue: &airports
     interval: 3600
     path: ./泡泡云.yaml 
     url:  https://1821.nginx24ppy.xyz/link/kySLStKTpSimjajb?clash=1
-    exclude-filter: "-10倍|剩余|流量|套餐|到期|官网|订阅"
+    exclude-filter: "倍率|剩余|流量|套餐|到期|官网|订阅"
     health-check:
       enable: true
       url: https://www.google.com/generate_204
